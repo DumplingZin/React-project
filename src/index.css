@@ -1,0 +1,124 @@
+* {
+  font-family: "Roboto", sans-serif;
+  font-family: "Salsa", cursive;
+  user-select: none;
+}
+body {
+  background: rgb(142, 218, 221);
+  background: linear-gradient(
+    173deg,
+    rgba(142, 218, 221, 1) 16%,
+    rgba(214, 226, 209, 1) 62%,
+    rgba(226, 227, 207, 1) 84%
+  );
+}
+.lineThroughTask {
+  text-decoration: line-through;
+}
+
+.mainContainer {
+  display: inline-flex;
+  flex-direction: column;
+  min-width: 600px;
+  align-items: center;
+  border-radius: 10px;
+  position: absolute;
+  left: 30%;
+  top: 20%;
+  background-color: #b3daf1;
+  box-shadow: -1px 6px 14px 0px rgba(0, 0, 0, 0.47);
+  -webkit-box-shadow: -1px 6px 14px 0px rgba(0, 0, 0, 0.47);
+  -moz-box-shadow: -1px 6px 14px 0px rgba(0, 0, 0, 0.47);
+}
+
+#input-box {
+  min-width: 400px;
+  border-radius: 5px;
+  padding: 10px;
+  margin-right: 10px;
+  font-size: 15px;
+  border: none;
+}
+
+.deleteButton {
+  font-size: 15px;
+  color: palevioletred;
+  padding: 10px;
+}
+.editButton {
+  font-size: 15px;
+  color: cyan;
+  padding: 10px;
+}
+.addButton {
+  font-size: 15px;
+  padding: 13px;
+  border: none;
+  border-radius: 5px;
+  color: black;
+}
+.deleteButton {
+  margin-left: 100px;
+}
+.taskContainer {
+  min-width: 500px;
+  border-radius: 10px;
+
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  flex-direction: column;
+
+  margin-top: 5px;
+
+  margin-bottom: 10px;
+}
+.singleTask {
+  margin-top: 5px;
+  min-width: 400px;
+  background-color: #00afb9;
+
+  text-align: center;
+  display: flex;
+  padding: 10px;
+  border-radius: 10px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.singleTask > span {
+  font-size: 20px;
+  color: whitesmoke;
+}
+
+#alertItem {
+  color: white;
+  padding: 15px;
+  font-size: 20px;
+  border-radius: 5px;
+  transition: all ease;
+  margin-bottom: 10px;
+}
+.select {
+  margin-top: 10px;
+}
+select {
+  font-size: 15px;
+  padding: 10px;
+  color: black;
+  background-color: #f1faee;
+  border: none;
+  border-radius: 10px;
+}
+.option {
+  border-radius: none;
+  padding: 10px;
+}
+.option:hover {
+  background-color: aliceblue;
+}
+
+.fa-list-check {
+  top: 50px;
+  position: relative;
+}
