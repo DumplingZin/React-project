@@ -1,0 +1,19 @@
+Overall , I relies on Chat gpt pretty much that isnt good
+
+currently in my app, it works fine but  I have to fix lot of feature  
+filer completed task, delete task , edit task and if category is the same not creating another 
+card and put it in exist one
+
+
+overall , I need to write more clean code and write usealbe code 
+
+
+problem state turning into undefine 
+we ll work on tmr
+
+okay fix on edit not updating local storage and later we ll work on filterArray part 
+
+
+need to work on add dark light mode 
+have to fix error of className at noti component 
+have to write more responsive for mobile
